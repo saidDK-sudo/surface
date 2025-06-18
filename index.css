@@ -1,0 +1,86 @@
+.top_header {
+    background-color: #826300;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+    font-family: lexend, sans-serif;
+}
+body{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: #faeddf;
+    font-family: lexend, sans-serif;
+
+}
+.itemnavbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.options{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.hero{
+    background-image: url("./pics/bg-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+
+.main-content{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.view-all-button{
+    font-family: lexend, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #826300;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    margin: 2ch;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    width: 100%;
+    align-content: center;
+    grid-area: auto;
+}
+.product-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
